@@ -46,7 +46,7 @@ std::uniform_int_distribution delayGen(InternalConfig::delayBound.lower, Interna
 
 namespace RoBeats {
 	ExternalConfig config;
-	array<string, 4> keys { "", "", "", "" };
+	array<string, 4> keys { "q", "w", "o", "p" };
 	array<int, 4> delays { 0, 0, 0, 0 };
 	array<bool, 4> heldLanes { 0, 0, 0, 0 };
 	int lanePositionsIndex = 0;
